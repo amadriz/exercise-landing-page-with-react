@@ -13,7 +13,12 @@ export function Home() {
 		<div>
 			<Navbar />
 			<div className="container mt-5">
-				<Jumbotron />
+				<Jumbotron
+					title="Hello, world!"
+					description="It uses utility classes for typography and spacing to space content out within the larger container."
+					buttonLabel="Learn more"
+					buttonUrl={"www.dot.com"}
+				/>
 				<div className="row mt-3">
 					<div className="col-sm-3">
 						<Cards />
